@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easytech Solutions | Industrial Excellence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero-gradient { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80'); background-size: cover; background-position: center; }
+        .service-card:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-700">EASYTECH SOLUTIONS</div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="hover:text-blue-600">Home</a>
+                <a href="#products" class="hover:text-blue-600">Products</a>
+                <a href="#services" class="hover:text-blue-600">Services</a>
+                <a href="#contact" class="hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-gradient h-[500px] flex items-center justify-center text-center text-white px-4">
+        <div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Precision Engineering Solutions</h1>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Providing high-quality industrial products and expert CNC/VMC maintenance services in Bangalore.</p>
+            <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-bold transition">Get a Quote</a>
+        </div>
+    </section>
+
+    <section id="products" class="py-20 container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12 italic text-gray-700 underline decoration-blue-500">Our Product Portfolio</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-blue-500 service-card">
+                <i class="fas fa-tools text-3xl text-blue-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Chamfering Machines</h3>
+                <p class="text-gray-600 text-sm">Pneumatic & Electric machines for high-speed edge deburring and beveling with precision.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-blue-500 service-card">
+                <i class="fas fa-oil-can text-3xl text-blue-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Easytech RC50 Oil</h3>
+                <p class="text-gray-600 text-sm">Specialized machine cleaning oil to remove sludge and coolant residue without damaging paint.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-blue-500 service-card">
+                <i class="fas fa-microchip text-3xl text-blue-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Carbide Inserts</h3>
+                <p class="text-gray-600 text-sm">Premium indexable inserts for turning, milling, and boring with high wear resistance.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-blue-500 service-card">
+                <i class="fas fa-redo text-3xl text-blue-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Resharpening Machines</h3>
+                <p class="text-gray-600 text-sm">Restore Drill bits and Endmills to factory-sharp conditions, significantly reducing tooling costs.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-blue-500 service-card">
+                <i class="fas fa-hand-holding-gear text-3xl text-blue-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Servo Tapping Machines</h3>
+                <p class="text-gray-600 text-sm">Arm-type servo drilling & tapping machines with articulated reach and torque control.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-700">Engineering Services</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded shadow">
+                    <h4 class="font-bold text-blue-700 mb-2">Maintenance</h4>
+                    <p class="text-sm">Preventive & Breakdown maintenance of CNC and VMC machines.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h4 class="font-bold text-blue-700 mb-2">Optimization</h4>
+                    <p class="text-sm">Component prove-out and significant cycle time reduction strategies.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h4 class="font-bold text-blue-700 mb-2">Fixture Design</h4>
+                    <p class="text-sm">Custom fixture designing and manufacturing for high-accuracy production.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h4 class="font-bold text-blue-700 mb-2">Low Cost Automation</h4>
+                    <p class="text-sm">Simple automation for CNC Turning and Cold Forging machines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 container mx-auto px-6">
+        <div class="bg-blue-900 text-white rounded-2xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
+            <div class="md:w-1/2 p-10 bg-blue-800">
+                <h2 class="text-3xl font-bold mb-6">Contact Details</h2>
+                <div class="space-y-6">
+                    <p class="flex items-center"><i class="fas fa-map-marker-alt w-8"></i> No.5, 1st Cross, 6th Block, Vishveshwaraiah Layout, Bangalore - 560110</p>
+                    <p class="flex items-center"><i class="fas fa-phone w-8"></i> +91 7019058126</p>
+                    <p class="flex items-center"><i class="fab fa-whatsapp w-8 text-green-400"></i> +91 7795930069</p>
+                    <p class="flex items-center"><i class="fas fa-envelope w-8"></i> saleseasytechsolutions@gmail.com</p>
+                </div>
+            </div>
+            <div class="md:w-1/2 p-10 bg-white text-gray-800">
+                <h2 class="text-2xl font-bold mb-4">Request a Quote</h2>
+                <form class="space-y-4">
+                    <input type="text" placeholder="Your Name" class="w-full p-2 border border-gray-300 rounded">
+                    <input type="email" placeholder="Your Email" class="w-full p-2 border border-gray-300 rounded">
+                    <textarea placeholder="Tell us about your requirement..." class="w-full p-2 border border-gray-300 rounded h-32"></textarea>
+                    <button class="bg-blue-600 text-white px-6 py-2 rounded font-bold hover:bg-blue-700 w-full transition">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-gray-400 py-6 text-center">
+        <p>&copy; 2026 Easytech Solutions. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
